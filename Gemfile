@@ -6,6 +6,8 @@ ruby "2.7.4"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 
+gem 'bcrypt', '~> 3.1.7'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -23,8 +25,12 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
+# group :development do
+#   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+#   # gem "spring"
+# end
+
 group :development do
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem 'foreman', '~> 0.87'
 end
 
