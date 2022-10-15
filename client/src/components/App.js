@@ -4,7 +4,7 @@ import Header from "./Header";
 import Account from "./Account";
 import Posts from "./Posts";
 import { Routes, Route } from "react-router-dom";
-import Login from ".//Login";
+import Login from "./Login";
 import CreateEvents from "./CreateEvents";
 
 function App() {
