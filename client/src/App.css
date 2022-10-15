@@ -225,3 +225,6 @@ div#insta {
   display: flex;
   flex-wrap: wrap;
 }
+.header-events {
+  text-align: center;
+}
